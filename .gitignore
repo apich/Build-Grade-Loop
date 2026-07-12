@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test work directories
+tests/_work/
+_work/
+
+# Pytest
+.pytest_cache/
+
+# State files (generated at runtime, not committed)
+# .iteration-state/ is project-specific, not part of the skill itself
