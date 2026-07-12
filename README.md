@@ -47,11 +47,23 @@ Agent A 改进 → Agent B 终评 → 92分 ✅ 达标，结束
 
 ## 使用方式
 
-### 最简用法
+### 从零构建 + 迭代（完整能力）
+
+```
+帮我用 build-grade-loop 从零构建一个文本统计 skill，目标 90 分
+项目路径：C:/Users/st/Desktop/text-stats/
+功能：分析文本的字数、句数、段落数、平均句长
+```
+
+→ Agent A 根据需求从零构建项目 → Agent B 评审打分 → 自动循环改进
+
+### 对已有项目迭代（部分能力）
 
 ```
 帮我用 build-grade-loop 把 C:/Users/st/Desktop/my-project 迭代到 90 分
 ```
+
+→ 跳过构建，直接进入评审→改进循环
 
 ### 自定义参数
 
